@@ -1,0 +1,24 @@
+/* 5 columns, percentage width */
+.grid-item,
+.grid-sizer {
+  width: 20%;
+}
+
+.grid-item {
+	float: left;
+	height: 100px;
+	background: #0D8;
+	border: solid 2px black;
+	counter-increment: item;
+}
+
+.grid-item:before {
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	padding: 0.2em;
+	content: counter(item);
+}
+
+.grid-item--width2 { width: 40%; }
+.grid-item--height2 { height: 200px; }
