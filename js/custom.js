@@ -16,8 +16,6 @@ jQuery(document).ready(function($) {
 		},
 	});
 
-	/*
-
 	// update columnWidth on window resize
 	$(window).smartresize(function(){
 	  	$container.isotope({
@@ -29,5 +27,5 @@ jQuery(document).ready(function($) {
 		    	rowHeight: 100
 		    }
 	  	});
-	}); */
+	});
 });
